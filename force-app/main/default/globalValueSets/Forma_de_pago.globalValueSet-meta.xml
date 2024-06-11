@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CONF</fullName>
+        <default>false</default>
+        <label>Confirming</label>
+    </customValue>
+    <customValue>
+        <fullName>DOM</fullName>
+        <default>false</default>
+        <label>Recibo domiciliado</label>
+    </customValue>
+    <customValue>
+        <fullName>GIR</fullName>
+        <default>false</default>
+        <label>Giro</label>
+    </customValue>
+    <customValue>
+        <fullName>GRU</fullName>
+        <default>false</default>
+        <label>Empresas vinculadas grupo</label>
+    </customValue>
+    <customValue>
+        <fullName>PAG</fullName>
+        <default>false</default>
+        <label>Pagaré</label>
+    </customValue>
+    <customValue>
+        <fullName>PAG-E</fullName>
+        <default>false</default>
+        <label>Pagaré emitido proveedores</label>
+    </customValue>
+    <customValue>
+        <fullName>RCONF</fullName>
+        <default>false</default>
+        <label>RECIBIDO CONFIRMING</label>
+    </customValue>
+    <customValue>
+        <fullName>TRF</fullName>
+        <default>false</default>
+        <label>Transferencia</label>
+    </customValue>
+    <customValue>
+        <fullName>TRFBKINUSD</fullName>
+        <default>false</default>
+        <label>Transferencia USD</label>
+    </customValue>
+    <customValue>
+        <fullName>TRFBNK</fullName>
+        <default>false</default>
+        <label>Transferencia Bankinter</label>
+    </customValue>
+    <masterLabel>Forma de pago</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

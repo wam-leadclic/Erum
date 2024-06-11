@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inter_s__c</fullName>
+    <externalId>false</externalId>
+    <label>Interés</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sostenibilidad</fullName>
+                <default>false</default>
+                <label>Sostenibilidad</label>
+            </value>
+            <value>
+                <fullName>Inyección Sostenible</fullName>
+                <default>false</default>
+                <label>Inyección Sostenible</label>
+            </value>
+            <value>
+                <fullName>Medio Ambiente</fullName>
+                <default>false</default>
+                <label>Medio Ambiente</label>
+            </value>
+            <value>
+                <fullName>Seguridad Vial</fullName>
+                <default>false</default>
+                <label>Seguridad Vial</label>
+            </value>
+            <value>
+                <fullName>Perchas</fullName>
+                <default>false</default>
+                <label>Perchas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

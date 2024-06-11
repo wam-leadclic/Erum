@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presupuesto</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Aceptado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Desestimado Internamente</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Desestimado por Cliente Potencial</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>En Análisis Interno</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Enviado a Cliente Potencial</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Nuevo</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

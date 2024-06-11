@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSeguridadVial</fullName>
+    <active>true</active>
+    <businessProcess>Seguridad Vial</businessProcess>
+    <description>Tipo de registro para almacenar candidatos pertenecientes a la empresa de seguridad vial</description>
+    <label>Seguridad Vial</label>
+    <picklistValues>
+        <picklist>ERUM_Canal_de_Origen__c</picklist>
+        <values>
+            <fullName>Carga manual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email info%40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landing page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recomendación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web ERUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Youtube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ERUM_Cargo__c</picklist>
+        <values>
+            <fullName>Becarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ERUM_Departamento__c</picklist>
+        <values>
+            <fullName>Compras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dirección General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logistica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sostenibilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visual Merchandiser</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ERUM_Idioma__c</picklist>
+        <values>
+            <fullName>DEU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ERUM_Razon_de_desestimacion__c</picklist>
+        <values>
+            <fullName>La informacón no está actualizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No cubre necesidades</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No es el Departamento responsable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No es la persona de contacto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No responde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiene proveedor con contrato actual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GenderIdentity</picklist>
+        <values>
+            <fullName>Hombre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mujer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No binario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No enumerado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Automoción %2F Autopartes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automoción %2F Dispositivos Seguridad Vial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gran Consumo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inter_s__c</picklist>
+        <values>
+            <fullName>Inyección Sostenible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medio Ambiente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perchas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguridad Vial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sostenibilidad</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pronouns</picklist>
+        <values>
+            <fullName>Ella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ella%2FEllos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ellos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No enumerado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Él</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Él%2FEllos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ARANC CV</fullName>
+        <default>false</default>
+        <label>Aranceles compra-venta</label>
+    </customValue>
+    <customValue>
+        <fullName>ARANC FAB</fullName>
+        <default>false</default>
+        <label>Aranceles fabricación</label>
+    </customValue>
+    <customValue>
+        <fullName>GABV</fullName>
+        <default>false</default>
+        <label>Basura, varios</label>
+    </customValue>
+    <customValue>
+        <fullName>GAEN</fullName>
+        <default>false</default>
+        <label>Envases</label>
+    </customValue>
+    <customValue>
+        <fullName>GAENA</fullName>
+        <default>false</default>
+        <label>Envases de automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMEA</fullName>
+        <default>false</default>
+        <label>Automoción</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMEC</fullName>
+        <default>false</default>
+        <label>Mercadería compra-venta</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMEF</fullName>
+        <default>false</default>
+        <label>Mercadería fabricación</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMEI</fullName>
+        <default>false</default>
+        <label>Mercadería intermediación internacional</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMP</fullName>
+        <default>false</default>
+        <label>Materia prima</label>
+    </customValue>
+    <customValue>
+        <fullName>GAOA</fullName>
+        <default>false</default>
+        <label>Otros Aprovisionamientos</label>
+    </customValue>
+    <customValue>
+        <fullName>GAPO</fullName>
+        <default>false</default>
+        <label>Porte de ventas</label>
+    </customValue>
+    <customValue>
+        <fullName>GAPP</fullName>
+        <default>false</default>
+        <label>Porte sobre compras</label>
+    </customValue>
+    <customValue>
+        <fullName>VARIOS</fullName>
+        <default>false</default>
+        <label>Otros diversos, trabajos</label>
+    </customValue>
+    <customValue>
+        <fullName>GAENC</fullName>
+        <default>false</default>
+        <label>Envases compra-venta</label>
+    </customValue>
+    <customValue>
+        <fullName>TRUEN</fullName>
+        <default>false</default>
+        <label>TRUEN</label>
+    </customValue>
+    <customValue>
+        <fullName>GAMU</fullName>
+        <default>false</default>
+        <label>Productos de muestra</label>
+    </customValue>
+    <customValue>
+        <fullName>IMP. PLA.</fullName>
+        <default>false</default>
+        <label>IMP. PLA.</label>
+    </customValue>
+    <customValue>
+        <fullName>ARANC INT</fullName>
+        <default>false</default>
+        <label>ARANC INT</label>
+    </customValue>
+    <masterLabel>Grupo contable producto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

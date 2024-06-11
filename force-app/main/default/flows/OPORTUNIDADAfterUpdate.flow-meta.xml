@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <description>Nodo de decisión para evaluar las condiciones de entrada y desencadenar los subflujos correspondientes</description>
+        <name>CondicionEntrada</name>
+        <label>Condición de entrada</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Resultado predeterminado</defaultConnectorLabel>
+        <rules>
+            <name>OportunidadAceptada</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Aceptado</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ActualizarCuentaYCrearPedido</targetReference>
+            </connector>
+            <label>Oportunidad Aceptada</label>
+        </rules>
+    </decisions>
+    <description>Flujo principal con todos los subflujos que pueden actuar cuando una oportunidad es modificada</description>
+    <environments>Default</environments>
+    <interviewLabel>OPORTUNIDAD - AFTER UPDATE {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>OPORTUNIDAD - After Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CondicionEntrada</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Flujo desencadenado automáticamente para actualizar el tipo de registro de Cuenta y crear el registro de tipo pedido con la información de la oportunidad ganada.</description>
+        <name>ActualizarCuentaYCrearPedido</name>
+        <label>Actualizar Cuenta y Crear Pedido</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <flowName>OPORTUNIDADActualizarCuentaYCrearPedido</flowName>
+        <inputAssignments>
+            <name>AccountID</name>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>OportunidadID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

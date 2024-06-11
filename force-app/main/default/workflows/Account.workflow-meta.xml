@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alerta_FINANCIERO_ERUM</fullName>
+        <description>Alerta FINANCIERO ERUM</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email_Responsable_Financiero__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ERUM/Plantilla_correo_financiero</template>
+    </alerts>
+    <alerts>
+        <fullName>alerta_email_clasificacion_analisis</fullName>
+        <ccEmails>sandra.delamaza@scl-consulting.com</ccEmails>
+        <description>alerta email clasificacion analisis</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ERUM/Envio_comercial</template>
+    </alerts>
+</Workflow>

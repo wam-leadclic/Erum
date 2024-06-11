@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EXW</fullName>
+        <default>true</default>
+        <label>EXW - A la salida</label>
+    </customValue>
+    <customValue>
+        <fullName>FCA</fullName>
+        <default>false</default>
+        <label>FCA - Libre transportista</label>
+    </customValue>
+    <customValue>
+        <fullName>CPT</fullName>
+        <default>false</default>
+        <label>Transporte pagado hasta</label>
+    </customValue>
+    <customValue>
+        <fullName>CIP</fullName>
+        <default>false</default>
+        <label>Transporte y Seguro Pagado Hasta</label>
+    </customValue>
+    <customValue>
+        <fullName>DAP</fullName>
+        <default>false</default>
+        <label>DAP-Entrega derech no pagados</label>
+    </customValue>
+    <customValue>
+        <fullName>DPU</fullName>
+        <default>false</default>
+        <label>Entrega en el lugar descargado</label>
+    </customValue>
+    <customValue>
+        <fullName>DDP</fullName>
+        <default>false</default>
+        <label>Entrega derechos pagados</label>
+    </customValue>
+    <customValue>
+        <fullName>FAS</fullName>
+        <default>false</default>
+        <label>FAS -Puerto de carga convenido</label>
+    </customValue>
+    <customValue>
+        <fullName>FOB</fullName>
+        <default>false</default>
+        <label>FOB - Franco a bordo</label>
+    </customValue>
+    <customValue>
+        <fullName>CFR</fullName>
+        <default>false</default>
+        <label>Coste y Flete</label>
+    </customValue>
+    <customValue>
+        <fullName>CIF</fullName>
+        <default>false</default>
+        <label>Coste, Seguro y Flete</label>
+    </customValue>
+    <customValue>
+        <fullName>COD</fullName>
+        <default>false</default>
+        <label>Pago a la entrega</label>
+    </customValue>
+    <customValue>
+        <fullName>DAF</fullName>
+        <default>false</default>
+        <label>Entregado en frontera</label>
+    </customValue>
+    <customValue>
+        <fullName>DDP-IVA</fullName>
+        <default>false</default>
+        <label>DDP menos IVA</label>
+    </customValue>
+    <customValue>
+        <fullName>DDU</fullName>
+        <default>false</default>
+        <label>DDU-Entrega derch no pagados</label>
+    </customValue>
+    <customValue>
+        <fullName>DEQ</fullName>
+        <default>false</default>
+        <label>DEQ-Entrega sobre muelle, Dech</label>
+    </customValue>
+    <customValue>
+        <fullName>DES</fullName>
+        <default>false</default>
+        <label>DES-Entrega sobre buque</label>
+    </customValue>
+    <customValue>
+        <fullName>EXT</fullName>
+        <default>false</default>
+        <label>EXT - Exteriores</label>
+    </customValue>
+    <customValue>
+        <fullName>FCA H&amp;M</fullName>
+        <default>false</default>
+        <label>FCA ALCOY (SPAIN) INCOTERMS 2020</label>
+    </customValue>
+    <customValue>
+        <fullName>FOB-IST</fullName>
+        <default>false</default>
+        <label>FOB Istambul</label>
+    </customValue>
+    <customValue>
+        <fullName>NMD</fullName>
+        <default>false</default>
+        <label>NMD - N/M Debidos</label>
+    </customValue>
+    <customValue>
+        <fullName>NMF</fullName>
+        <default>false</default>
+        <label>NMF - N/M en factura</label>
+    </customValue>
+    <customValue>
+        <fullName>NMPC</fullName>
+        <default>false</default>
+        <label>NMPc -N/M Pagados Corto</label>
+    </customValue>
+    <customValue>
+        <fullName>NMPL</fullName>
+        <default>false</default>
+        <label>NMPI -N/M Pagados Largo</label>
+    </customValue>
+    <customValue>
+        <fullName>NMPM</fullName>
+        <default>false</default>
+        <label>NMPm - N/M Pagados Medio</label>
+    </customValue>
+    <customValue>
+        <fullName>SMD</fullName>
+        <default>false</default>
+        <label>SMD - S/M Debidos</label>
+    </customValue>
+    <customValue>
+        <fullName>SMP</fullName>
+        <default>false</default>
+        <label>SMP- S/M Pagados</label>
+    </customValue>
+    <masterLabel>Condiciones de envío</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>No procede</fullName>
+        <default>false</default>
+        <label>No procede</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Percha tienda</fullName>
+        <default>false</default>
+        <label>Percha tienda</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Percha confección</fullName>
+        <default>false</default>
+        <label>Percha confección</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Percha mixta</fullName>
+        <default>false</default>
+        <label>Percha mixta</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indicadores</fullName>
+        <default>false</default>
+        <label>Indicadores</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conectores</fullName>
+        <default>false</default>
+        <label>Conectores</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RTS</fullName>
+        <default>false</default>
+        <label>RTS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bolsas</fullName>
+        <default>false</default>
+        <label>Bolsas</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cartón</fullName>
+        <default>false</default>
+        <label>Cartón</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Perchas de transporte</fullName>
+        <default>false</default>
+        <label>Perchas de transporte</label>
+    </standardValue>
+</StandardValueSet>

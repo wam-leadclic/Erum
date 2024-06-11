@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Forma_de_pago__c</fullName>
+    <defaultValue>&apos;Sin datos&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>Forma de pago</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Forma_de_pago</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ADZ</fullName>
+        <default>false</default>
+        <label>TIRA ANTIDESLIZANTE</label>
+    </customValue>
+    <customValue>
+        <fullName>FNDS</fullName>
+        <default>false</default>
+        <label>FUNDAS</label>
+    </customValue>
+    <customValue>
+        <fullName>HRRJS</fullName>
+        <default>false</default>
+        <label>HERRAJES</label>
+    </customValue>
+    <customValue>
+        <fullName>IDT</fullName>
+        <default>false</default>
+        <label>INDICADOR DE TALLA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRNT</fullName>
+        <default>false</default>
+        <label>TIRANTE</label>
+    </customValue>
+    <customValue>
+        <fullName>ANLLS</fullName>
+        <default>false</default>
+        <label>ANILLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>ST</fullName>
+        <default>false</default>
+        <label>SEPARADOR DE TALLA</label>
+    </customValue>
+    <customValue>
+        <fullName>ANTDSLZNT</fullName>
+        <default>false</default>
+        <label>ANTIDESLIZANTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CL</fullName>
+        <default>false</default>
+        <label>COLA</label>
+    </customValue>
+    <customValue>
+        <fullName>CLV</fullName>
+        <default>false</default>
+        <label>CLAVO</label>
+    </customValue>
+    <customValue>
+        <fullName>CNCM</fullName>
+        <default>false</default>
+        <label>CANCAMO</label>
+    </customValue>
+    <customValue>
+        <fullName>CRTN</fullName>
+        <default>false</default>
+        <label>CARTON / PALET</label>
+    </customValue>
+    <customValue>
+        <fullName>DSLVNTS</fullName>
+        <default>false</default>
+        <label>DISOLVENTES</label>
+    </customValue>
+    <customValue>
+        <fullName>EI</fullName>
+        <default>false</default>
+        <label>ELEMENTOS INCORPORABLES</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMINAS</fullName>
+        <default>false</default>
+        <label>LMNS</label>
+    </customValue>
+    <customValue>
+        <fullName>NCLS</fullName>
+        <default>false</default>
+        <label>NUCLEOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PRNSDS</fullName>
+        <default>false</default>
+        <label>PRENSADAS</label>
+    </customValue>
+    <customValue>
+        <fullName>BLSS</fullName>
+        <default>false</default>
+        <label>BOLSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CNCNTRD</fullName>
+        <default>false</default>
+        <label>CONCENTRADO</label>
+    </customValue>
+    <customValue>
+        <fullName>MTP</fullName>
+        <default>false</default>
+        <label>MATERIA PRIMA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRBJS</fullName>
+        <default>false</default>
+        <label>TRABAJOS</label>
+    </customValue>
+    <customValue>
+        <fullName>BRR</fullName>
+        <default>false</default>
+        <label>BARRA</label>
+    </customValue>
+    <customValue>
+        <fullName>CRPS</fullName>
+        <default>false</default>
+        <label>CUERPOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PLCSP</fullName>
+        <default>false</default>
+        <label>PLACAS PERSONALIZACIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>PNZ</fullName>
+        <default>false</default>
+        <label>PINZA</label>
+    </customValue>
+    <customValue>
+        <fullName>VRLLS</fullName>
+        <default>false</default>
+        <label>VARILLAS</label>
+    </customValue>
+    <customValue>
+        <fullName>BBCH</fullName>
+        <default>false</default>
+        <label>BABUCHA</label>
+    </customValue>
+    <customValue>
+        <fullName>PP</fullName>
+        <default>false</default>
+        <label>PERCHA PLASTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>PA</fullName>
+        <default>false</default>
+        <label>PERCHA ALUMINIO</label>
+    </customValue>
+    <customValue>
+        <fullName>PM</fullName>
+        <default>false</default>
+        <label>PERCHA METALICA</label>
+    </customValue>
+    <customValue>
+        <fullName>PML</fullName>
+        <default>false</default>
+        <label>PERCHA MADERA LAMINADA</label>
+    </customValue>
+    <customValue>
+        <fullName>PMM</fullName>
+        <default>false</default>
+        <label>PERCHA MADERA MACIZA</label>
+    </customValue>
+    <customValue>
+        <fullName>OA</fullName>
+        <default>false</default>
+        <label>OTROS ARTICULOS</label>
+    </customValue>
+    <customValue>
+        <fullName>PLL</fullName>
+        <default>false</default>
+        <label>PERCHA DE PLASTICO LEÑO</label>
+    </customValue>
+    <customValue>
+        <fullName>RCPRCN</fullName>
+        <default>false</default>
+        <label>RECUPERACIÓN</label>
+    </customValue>
+    <customValue>
+        <fullName>SIN  CLAS.</fullName>
+        <default>false</default>
+        <label>SIN CLASIFICACION</label>
+    </customValue>
+    <customValue>
+        <fullName>ODT</fullName>
+        <default>false</default>
+        <label>ODT</label>
+    </customValue>
+    <customValue>
+        <fullName>PPL</fullName>
+        <default>false</default>
+        <label>PERCHA DE PLÁSTICO LEÑO</label>
+    </customValue>
+    <customValue>
+        <fullName>PIP</fullName>
+        <default>false</default>
+        <label>PRODUCTO INTERMEDIO PLÁSTICO</label>
+    </customValue>
+    <masterLabel>Cód. grupo producto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

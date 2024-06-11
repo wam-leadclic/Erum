@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campos_cumplimentados__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(NOT(ISBLANK(Name)),
+					NOT(ISBLANK(Phone)),
+					NOT(ISBLANK(ERUM_Email__c)),
+					NOT(ISBLANK(TEXT(Grupo_contable_negocio__c))),
+					NOT(ISBLANK(TEXT(Grupo_Contable_Cliente__c))),
+					NOT(ISBLANK(TEXT(ERUM_Terminos_de_pago__c))),
+					NOT(ISBLANK(TEXT(ERUM_Forma_de_pago__c ))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Campos cumplimentados</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

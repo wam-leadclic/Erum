@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cliente_activo</fullName>
+    <active>false</active>
+    <errorConditionFormula>Account.ERUM_Activo_ERP__c = TRUE</errorConditionFormula>
+    <errorMessage>No se pueden crear presupuestos debido a que el cliente no está en Navision.</errorMessage>
+</ValidationRule>

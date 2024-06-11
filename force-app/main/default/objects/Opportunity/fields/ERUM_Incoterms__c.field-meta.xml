@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Incoterms__c</fullName>
+    <externalId>false</externalId>
+    <label>Condiciones de envío</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EXW</fullName>
+                <default>true</default>
+                <label>EXW - A la salida</label>
+            </value>
+            <value>
+                <fullName>FCA</fullName>
+                <default>false</default>
+                <label>FCA - Libre transportista</label>
+            </value>
+            <value>
+                <fullName>CPT</fullName>
+                <default>false</default>
+                <label>Transporte pagado hasta</label>
+            </value>
+            <value>
+                <fullName>CIP</fullName>
+                <default>false</default>
+                <label>Transporte y Seguro Pagado Hasta</label>
+            </value>
+            <value>
+                <fullName>DAP</fullName>
+                <default>false</default>
+                <label>DAP-Entrega derech no pagados</label>
+            </value>
+            <value>
+                <fullName>DPU</fullName>
+                <default>false</default>
+                <label>Entrega en el lugar descargado</label>
+            </value>
+            <value>
+                <fullName>DDP</fullName>
+                <default>false</default>
+                <label>Entrega derechos pagados</label>
+            </value>
+            <value>
+                <fullName>FAS</fullName>
+                <default>false</default>
+                <label>FAS -Puerto de carga convenido</label>
+            </value>
+            <value>
+                <fullName>FOB</fullName>
+                <default>false</default>
+                <label>FOB - Franco a bordo</label>
+            </value>
+            <value>
+                <fullName>CFR</fullName>
+                <default>false</default>
+                <label>Coste y Flete</label>
+            </value>
+            <value>
+                <fullName>CIF</fullName>
+                <default>false</default>
+                <label>Coste, Seguro y Flete</label>
+            </value>
+            <value>
+                <fullName>COD</fullName>
+                <default>false</default>
+                <label>Pago a la entrega</label>
+            </value>
+            <value>
+                <fullName>DAF</fullName>
+                <default>false</default>
+                <label>Entregado en frontera</label>
+            </value>
+            <value>
+                <fullName>DDP-IVA</fullName>
+                <default>false</default>
+                <label>DDP menos IVA</label>
+            </value>
+            <value>
+                <fullName>DDU</fullName>
+                <default>false</default>
+                <label>DDU-Entrega derch no pagados</label>
+            </value>
+            <value>
+                <fullName>DEQ</fullName>
+                <default>false</default>
+                <label>DEQ-Entrega sobre muelle, Dech</label>
+            </value>
+            <value>
+                <fullName>DES</fullName>
+                <default>false</default>
+                <label>DES-Entrega sobre buque</label>
+            </value>
+            <value>
+                <fullName>EXT</fullName>
+                <default>false</default>
+                <label>EXT - Exteriores</label>
+            </value>
+            <value>
+                <fullName>FCA H&amp;M</fullName>
+                <default>false</default>
+                <label>FCA ALCOY (SPAIN) INCOTERMS 2020</label>
+            </value>
+            <value>
+                <fullName>FOB-IST</fullName>
+                <default>false</default>
+                <label>FOB Istambul</label>
+            </value>
+            <value>
+                <fullName>NMD</fullName>
+                <default>false</default>
+                <label>NMD - N/M Debidos</label>
+            </value>
+            <value>
+                <fullName>NMF</fullName>
+                <default>false</default>
+                <label>NMF - N/M en factura</label>
+            </value>
+            <value>
+                <fullName>NMPC</fullName>
+                <default>false</default>
+                <label>NMPc -N/M Pagados Corto</label>
+            </value>
+            <value>
+                <fullName>NMPL</fullName>
+                <default>false</default>
+                <label>NMPI -N/M Pagados Largo</label>
+            </value>
+            <value>
+                <fullName>NMPM</fullName>
+                <default>false</default>
+                <label>NMPm - N/M Pagados Medio</label>
+            </value>
+            <value>
+                <fullName>SMD</fullName>
+                <default>false</default>
+                <label>SMD - S/M Debidos</label>
+            </value>
+            <value>
+                <fullName>SMP</fullName>
+                <default>false</default>
+                <label>SMP- S/M Pagados</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

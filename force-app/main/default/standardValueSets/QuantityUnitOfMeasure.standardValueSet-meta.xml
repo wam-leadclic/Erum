@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CAJA</fullName>
+        <default>false</default>
+        <label>CAJA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAPA</fullName>
+        <default>false</default>
+        <label>CAPA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KG</fullName>
+        <default>false</default>
+        <label>KG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PALLET</fullName>
+        <default>false</default>
+        <label>PALLET</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PCS.</fullName>
+        <default>false</default>
+        <label>PCS.</label>
+    </standardValue>
+</StandardValueSet>

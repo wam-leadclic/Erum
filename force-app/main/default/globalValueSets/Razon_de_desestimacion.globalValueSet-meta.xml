@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Por producto</fullName>
+        <default>false</default>
+        <label>Por producto</label>
+    </customValue>
+    <customValue>
+        <fullName>Por precio</fullName>
+        <default>false</default>
+        <label>Por precio</label>
+    </customValue>
+    <customValue>
+        <fullName>Por plazo</fullName>
+        <default>false</default>
+        <label>Por plazo</label>
+    </customValue>
+    <customValue>
+        <fullName>Por Forma de Pago</fullName>
+        <default>false</default>
+        <label>Por Forma de Pago</label>
+    </customValue>
+    <customValue>
+        <fullName>Por otros motivos</fullName>
+        <default>false</default>
+        <label>Por otros motivos</label>
+    </customValue>
+    <masterLabel>Razón de desestimación</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

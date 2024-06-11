@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Grupo_registro_IVA_prod__c</fullName>
+    <externalId>false</externalId>
+    <label>Grupo registro IVA prod.</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Grupo_registro_IVA_prod</valueSetName>
+    </valueSet>
+</CustomField>

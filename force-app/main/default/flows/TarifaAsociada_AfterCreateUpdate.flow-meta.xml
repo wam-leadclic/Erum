@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <description>Comprobar si la tarifa ha sido seleccionada creada o se ha cambiado</description>
+        <name>Decision_TarifaSeleccionada</name>
+        <label>Decision_Tarifa Seleccionada</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>TarifaSeleccionada</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>For_IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.PriceBook__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.PriceBook__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SubFlow_IncluirTarifasAsociadasCuenta</targetReference>
+            </connector>
+            <label>Sí</label>
+        </rules>
+    </decisions>
+    <description>Flujo Triggered que se lanza cuando se crea o se actualiza una Tarifa Asociada.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Formula que devuelve verdadero si el registro es nuevo.</description>
+        <name>For_IsNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>TarifaAsociada_After Create Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>TarifaAsociada_After Create Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_TarifaSeleccionada</targetReference>
+        </connector>
+        <object>TarifaAsociada__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Lanzar el subflujo &quot;TarifaAsociada_Incluir Tarifas Asociadas a Cuenta&quot;</description>
+        <name>SubFlow_IncluirTarifasAsociadasCuenta</name>
+        <label>SubFlow_Incluir Tarifas Asociadas a Cuenta</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <flowName>TarifaAsociada_IncluirTarifasAsociadasACuenta</flowName>
+        <inputAssignments>
+            <name>VarIn_TarifaAscoiada</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <description>Variable que contiene las tarifas incluidas en la cuenta relacionada.</description>
+        <name>Var_TarifasIncluidas</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

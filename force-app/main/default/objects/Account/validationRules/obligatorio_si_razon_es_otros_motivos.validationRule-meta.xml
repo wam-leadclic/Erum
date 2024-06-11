@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>obligatorio_si_razon_es_otros_motivos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL( ERUM_Razon_de_desestimacion__c , &apos;Por otros motivos&apos;),ISBLANK( ERUM_Detalle_Motivos__c ))</errorConditionFormula>
+    <errorDisplayField>ERUM_Detalle_Motivos__c</errorDisplayField>
+    <errorMessage>Especifica por favor</errorMessage>
+</ValidationRule>

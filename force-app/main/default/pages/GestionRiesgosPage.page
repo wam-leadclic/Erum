@@ -1,0 +1,36 @@
+<apex:page controller="GestionRiesgosController" tabStyle="Account" docType="html-5.0">
+    <head>
+        
+    </head>
+    <div class="header">
+        <center><apex:image height="10%" width="10%" value="{!URLFOR($Resource.logo_erum)}"/></center>
+    </div>
+    <apex:form >
+        <apex:pageBlock >
+
+            <apex:outputPanel rendered="{!errorIsNotNull}">
+                <apex:pageMessage detail="{!errorDetail}" severity="error"/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!successIsNotNull}">
+                <apex:pageMessage detail="{!successDetail}" severity="confirm"/>
+            </apex:outputPanel>
+
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!updateClientePotencial}" value="Informar Análisis de Riesgo"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection title="Datos del Cliente Potencial" columns="1">
+                <apex:inputText label="Código de Identificación Fiscal" value="{!cif}"></apex:inputText>
+                <apex:inputText label="Núm. Exped. CYC" value="{!numeroExp}"></apex:inputText>
+                <apex:input label="Fecha Expediente CYC" value="{!fechaExp}" type="auto"/>            
+                <apex:input label="Días Asegurado CYC" value="{!diasAsegurado}" type="number"/>
+                <apex:inputText label="Límite de Crédito" value="{!limiteCredito}"/>
+                <apex:selectList label="Clasificación" value="{!clasificacion}">
+                    <apex:selectOptions value="{!clasificacionList}" />
+                </apex:selectList>
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

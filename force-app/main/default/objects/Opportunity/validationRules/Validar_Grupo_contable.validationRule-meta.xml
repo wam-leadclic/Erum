@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Grupo_contable</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(StageName)=&quot;Aceptado&quot;,productos_OK__c =false)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>No se pueden crear el pedido debido a que los Grupos contables no son correctos.</errorMessage>
+</ValidationRule>

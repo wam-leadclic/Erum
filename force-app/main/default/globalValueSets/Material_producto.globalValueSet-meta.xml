@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PP</fullName>
+        <default>false</default>
+        <label>POLIPROPILENO</label>
+    </customValue>
+    <customValue>
+        <fullName>PS</fullName>
+        <default>false</default>
+        <label>POLIESTIRENO</label>
+    </customValue>
+    <customValue>
+        <fullName>RPP</fullName>
+        <default>false</default>
+        <label>PP RECICLADO</label>
+    </customValue>
+    <customValue>
+        <fullName>RPS</fullName>
+        <default>false</default>
+        <label>PS RECICLADO</label>
+    </customValue>
+    <masterLabel>Material producto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

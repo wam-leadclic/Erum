@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EXENTO</fullName>
+        <default>false</default>
+        <label>Varios IVA Exento</label>
+    </customValue>
+    <customValue>
+        <fullName>IVA04</fullName>
+        <default>false</default>
+        <label>Varios con IVA 4% supereducido</label>
+    </customValue>
+    <customValue>
+        <fullName>IVA10</fullName>
+        <default>false</default>
+        <label>Varios con IVA 10% reducido</label>
+    </customValue>
+    <customValue>
+        <fullName>IVA21</fullName>
+        <default>false</default>
+        <label>Varios con IVA 21%</label>
+    </customValue>
+    <customValue>
+        <fullName>IVABI21</fullName>
+        <default>false</default>
+        <label>Bienes de inversión 21%</label>
+    </customValue>
+    <customValue>
+        <fullName>IVAS21</fullName>
+        <default>false</default>
+        <label>Varios servicios con IVA 21%</label>
+    </customValue>
+    <customValue>
+        <fullName>IVA-TI-21</fullName>
+        <default>false</default>
+        <label>Varios con IVA 21% importación</label>
+    </customValue>
+    <customValue>
+        <fullName>NO SUJETO</fullName>
+        <default>false</default>
+        <label>Varios IVA NO SUJETO</label>
+    </customValue>
+    <masterLabel>Grupo registro IVA prod.</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

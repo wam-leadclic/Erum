@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>GCGNA</fullName>
+        <default>false</default>
+        <label>Nac. del Grupo - Grupo Clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GCGRM</fullName>
+        <default>false</default>
+        <label>RM del Grupo - Grupo clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GCGUE</fullName>
+        <default>false</default>
+        <label>UE del Grupo - Grupo clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GCNA</fullName>
+        <default>false</default>
+        <label>Nacional - Grupo clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GCRM</fullName>
+        <default>false</default>
+        <label>Resto Mundo - Grupo clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GCUE</fullName>
+        <default>false</default>
+        <label>UE - Grupo clientes</label>
+    </customValue>
+    <customValue>
+        <fullName>GDUE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GDUE</label>
+    </customValue>
+    <customValue>
+        <fullName>GDRM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GDRM</label>
+    </customValue>
+    <customValue>
+        <fullName>GDNA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GDNA</label>
+    </customValue>
+    <customValue>
+        <fullName>GCDCUE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCDCUE</label>
+    </customValue>
+    <customValue>
+        <fullName>GCDCRM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCDCRM</label>
+    </customValue>
+    <customValue>
+        <fullName>GCDCNA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GCDCNA</label>
+    </customValue>
+    <masterLabel>Grupo Contable Cliente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

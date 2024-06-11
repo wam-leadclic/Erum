@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>obligatorio_codigo_erp</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(AND(ISNEW(), ISBLANK(ERUM_Codigo_cliente_ERP__c )))</errorConditionFormula>
+    <errorMessage>Código cliente ERP vacío, por favor, envía cliente a ERP</errorMessage>
+</ValidationRule>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0</fullName>
+        <default>false</default>
+        <label>0 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>10 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>15 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>20 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>30 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>35 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <label>45 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>50 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>60</fullName>
+        <default>false</default>
+        <label>60 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>70</fullName>
+        <default>false</default>
+        <label>70 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>75</fullName>
+        <default>false</default>
+        <label>75 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>85</fullName>
+        <default>false</default>
+        <label>85 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>90</fullName>
+        <default>false</default>
+        <label>90 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>120</fullName>
+        <default>false</default>
+        <label>120 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>150 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>180</fullName>
+        <default>false</default>
+        <label>180 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>30-70% ADV</fullName>
+        <default>false</default>
+        <label>30% in advance 70% against BL copy</label>
+    </customValue>
+    <customValue>
+        <fullName>50-50%</fullName>
+        <default>false</default>
+        <label>50% Advance / 50% Loaded</label>
+    </customValue>
+    <customValue>
+        <fullName>50% 50%</fullName>
+        <default>false</default>
+        <label>50%TT in advance / 50%, 30 days TT date invoice</label>
+    </customValue>
+    <customValue>
+        <fullName>100%ADVANC</fullName>
+        <default>false</default>
+        <label>100% Advance</label>
+    </customValue>
+    <customValue>
+        <fullName>30-60</fullName>
+        <default>false</default>
+        <label>2PLAZ 60 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>60-90</fullName>
+        <default>false</default>
+        <label>2PLAZ 90 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>90-120</fullName>
+        <default>false</default>
+        <label>2PLAZ 120 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>30-60-90</fullName>
+        <default>false</default>
+        <label>3PLAZ 90 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>60-90-120</fullName>
+        <default>false</default>
+        <label>3PLAZ 120 DIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>ZARA</fullName>
+        <default>false</default>
+        <label>Zara</label>
+    </customValue>
+    <masterLabel>Términos de pago</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

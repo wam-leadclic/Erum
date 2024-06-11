@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Minorista</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gran Consumo</fullName>
+        <default>false</default>
+        <label>Gran Consumo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automoción / Autopartes</fullName>
+        <default>false</default>
+        <label>Automoción / Autopartes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automoción / Dispositivos Seguridad Vial</fullName>
+        <default>false</default>
+        <label>Automoción / Dispositivos Seguridad Vial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </standardValue>
+</StandardValueSet>

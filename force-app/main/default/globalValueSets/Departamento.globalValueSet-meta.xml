@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Dirección General</fullName>
+        <default>false</default>
+        <label>Dirección General</label>
+    </customValue>
+    <customValue>
+        <fullName>Compras</fullName>
+        <default>false</default>
+        <label>Compras</label>
+    </customValue>
+    <customValue>
+        <fullName>Sostenibilidad</fullName>
+        <default>false</default>
+        <label>Sostenibilidad</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Merchandiser</fullName>
+        <default>false</default>
+        <label>Visual Merchandiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Ventas</fullName>
+        <default>false</default>
+        <label>Ventas</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistica</fullName>
+        <default>false</default>
+        <label>Logistica</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <masterLabel>Departamento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

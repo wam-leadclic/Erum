@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Razon_de_desestimacion__c</fullName>
+    <externalId>false</externalId>
+    <label>Razón de desestimación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No cubre necesidades</fullName>
+                <default>false</default>
+                <label>No cubre necesidades</label>
+            </value>
+            <value>
+                <fullName>No es la persona de contacto</fullName>
+                <default>false</default>
+                <label>No es la persona de contacto</label>
+            </value>
+            <value>
+                <fullName>No es el Departamento responsable</fullName>
+                <default>false</default>
+                <label>No es el Departamento responsable</label>
+            </value>
+            <value>
+                <fullName>Tiene proveedor con contrato actual</fullName>
+                <default>false</default>
+                <label>Tiene proveedor con contrato actual</label>
+            </value>
+            <value>
+                <fullName>La informacón no está actualizada</fullName>
+                <default>false</default>
+                <label>La informacón no está actualizada</label>
+            </value>
+            <value>
+                <fullName>No responde</fullName>
+                <default>false</default>
+                <label>No responde</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

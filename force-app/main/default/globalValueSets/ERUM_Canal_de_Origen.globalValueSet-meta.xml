@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Web ERUM</fullName>
+        <default>false</default>
+        <label>Web ERUM</label>
+    </customValue>
+    <customValue>
+        <fullName>Email info@</fullName>
+        <default>false</default>
+        <label>Email info@</label>
+    </customValue>
+    <customValue>
+        <fullName>Gerencia</fullName>
+        <default>false</default>
+        <label>Gerencia</label>
+    </customValue>
+    <customValue>
+        <fullName>Evento</fullName>
+        <default>false</default>
+        <label>Evento</label>
+    </customValue>
+    <customValue>
+        <fullName>Landing page</fullName>
+        <default>false</default>
+        <label>Landing page</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram</fullName>
+        <default>false</default>
+        <label>Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <customValue>
+        <fullName>Youtube</fullName>
+        <default>false</default>
+        <label>Youtube</label>
+    </customValue>
+    <customValue>
+        <fullName>Teléfono general</fullName>
+        <default>false</default>
+        <label>Teléfono general</label>
+    </customValue>
+    <customValue>
+        <fullName>Linkedin</fullName>
+        <default>false</default>
+        <label>Linkedin</label>
+    </customValue>
+    <customValue>
+        <fullName>Recomendación</fullName>
+        <default>false</default>
+        <label>Recomendación</label>
+    </customValue>
+    <customValue>
+        <fullName>Carga manual</fullName>
+        <default>false</default>
+        <label>Carga manual</label>
+    </customValue>
+    <masterLabel>Canal de Origen</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

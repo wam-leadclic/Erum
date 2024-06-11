@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Direccion_Principal_Envio__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>si está marcado significa que es la direccion principal de envio</description>
+    <externalId>false</externalId>
+    <label>Dirección Principal Envío</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

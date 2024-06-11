@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>ERUM_Cod_de_Direccion_NAV__c</columns>
+    <columns>ERUM_Calle__c</columns>
+    <columns>ERUM_Ciudad__c</columns>
+    <columns>ERUM_Codigo_postal__c</columns>
+    <columns>ERUM_Country_RegionCOD__c</columns>
+    <columns>ERUM_Pais__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>oficinas</value>
+    </filters>
+    <label>Todos</label>
+</ListView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ALMACEN</fullName>
+        <default>false</default>
+        <label>ALMACEN</label>
+    </customValue>
+    <customValue>
+        <fullName>CM</fullName>
+        <default>false</default>
+        <label>COMPLEMENTOS MADERA</label>
+    </customValue>
+    <customValue>
+        <fullName>CP</fullName>
+        <default>false</default>
+        <label>COMPLEMENTOS PLÁSTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>MLD02549</fullName>
+        <default>false</default>
+        <label>CRF06 30</label>
+    </customValue>
+    <customValue>
+        <fullName>MPM</fullName>
+        <default>false</default>
+        <label>MATERIA PRIMA MADERA</label>
+    </customValue>
+    <customValue>
+        <fullName>MPP</fullName>
+        <default>false</default>
+        <label>MATERIA PRIMA PLÁSTICOMATERIA PRIMA PLÁSTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>PIM</fullName>
+        <default>false</default>
+        <label>PRODUCTO INTERMEDIO MADERA</label>
+    </customValue>
+    <customValue>
+        <fullName>PIP</fullName>
+        <default>false</default>
+        <label>PRODUCTO INTERMEDIO PLÁSTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>PTM</fullName>
+        <default>false</default>
+        <label>PRODUCTO TERMINADO MADERA</label>
+    </customValue>
+    <customValue>
+        <fullName>PTP</fullName>
+        <default>false</default>
+        <label>PRODUCTO TERMINADO PLÁSTICO</label>
+    </customValue>
+    <customValue>
+        <fullName>SIN</fullName>
+        <default>false</default>
+        <label>SIN CLASIFICACION</label>
+    </customValue>
+    <masterLabel>Cód. categoría producto</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

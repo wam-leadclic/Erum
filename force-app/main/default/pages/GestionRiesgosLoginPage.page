@@ -1,0 +1,23 @@
+<apex:page controller="GestionRiesgosLoginController" docType="html-5.0">
+  <div class="header">
+    <center><apex:image height="10%" width="10%" value="{!URLFOR($Resource.logo_erum)}"/></center>
+  </div>
+  <apex:form >
+    <apex:pageBlock >
+
+        <apex:outputPanel rendered="{!errorIsNotNull}">
+            <apex:pageMessage detail="{!errorDetail}" severity="error"/>
+        </apex:outputPanel>
+
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!verificarCredenciales}" value="Verificar Credenciales"/>
+        </apex:pageBlockButtons>
+
+        <apex:pageBlockSection title="Datos del Usuario" columns="1">
+            <apex:inputText label="Usuario" value="{!username}"></apex:inputText>
+            <apex:inputSecret label="Contraseña" value="{!password}"></apex:inputSecret>
+        </apex:pageBlockSection>
+
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

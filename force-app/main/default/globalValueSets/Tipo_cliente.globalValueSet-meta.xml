@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Gran Consumo</fullName>
+        <default>false</default>
+        <label>Gran Consumo</label>
+    </customValue>
+    <customValue>
+        <fullName>Automoción / Autopartes</fullName>
+        <default>false</default>
+        <label>Automoción / Autopartes</label>
+    </customValue>
+    <customValue>
+        <fullName>Automoción / Dispositivos Seguridad Vial</fullName>
+        <default>false</default>
+        <label>Automoción / Dispositivos Seguridad Vial</label>
+    </customValue>
+    <customValue>
+        <fullName>Otros</fullName>
+        <default>false</default>
+        <label>Otros</label>
+    </customValue>
+    <masterLabel>Tipo cliente</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

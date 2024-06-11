@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Nuevo</fullName>
+        <default>false</default>
+        <label>Nuevo</label>
+    </customValue>
+    <customValue>
+        <fullName>En Análisis Riesgo</fullName>
+        <default>false</default>
+        <label>En Análisis Riesgo</label>
+    </customValue>
+    <customValue>
+        <fullName>Fin de Análisis Riesgo</fullName>
+        <default>false</default>
+        <label>Fin de Análisis Riesgo</label>
+    </customValue>
+    <customValue>
+        <fullName>Desestimado</fullName>
+        <default>false</default>
+        <label>Desestimado</label>
+    </customValue>
+    <customValue>
+        <fullName>Convertido</fullName>
+        <default>false</default>
+        <label>Convertido</label>
+    </customValue>
+    <customValue>
+        <fullName>Activo</fullName>
+        <default>false</default>
+        <label>Activo</label>
+    </customValue>
+    <customValue>
+        <fullName>Inactivo</fullName>
+        <default>false</default>
+        <label>Inactivo</label>
+    </customValue>
+    <customValue>
+        <fullName>Pausado</fullName>
+        <default>false</default>
+        <label>Pausado</label>
+    </customValue>
+    <masterLabel>Estado</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Datos_obligatorios</fullName>
+    <active>true</active>
+    <description>No se puede cerrar la oportunidad si no están los campos obligatorios</description>
+    <errorConditionFormula>IF(ISBLANK(Account.BillingAddress) || 
+ISBLANK( Codigo_postal__c ) || ISBLANK(TEXT(Account.ERUM_Terminos_de_pago__c)) ||  ISBLANK(TEXT(Account.ERUM_Forma_de_pago__c)) 
+			|| ISBLANK (TEXT(Account.Grupo_Contable_Cliente__c)) ||  ISBLANK (TEXT(Account.Grupo_contable_negocio__c)),
+			AND (TEXT(StageName) = &apos;Desestimado Internamente&apos; || TEXT(StageName) =&apos;Desestimado por Cliente Potencial&apos; || TEXT(StageName) =&apos;Aceptado&apos;), NULL)</errorConditionFormula>
+    <errorMessage>No se puede cerrar la oportunidad si no están los datos obligatorios.</errorMessage>
+</ValidationRule>

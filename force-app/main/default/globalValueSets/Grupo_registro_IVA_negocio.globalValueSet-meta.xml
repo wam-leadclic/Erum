@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EXPORT.</fullName>
+        <default>false</default>
+        <label>Otros clientes y proveedores (no UE)</label>
+    </customValue>
+    <customValue>
+        <fullName>GIADAR</fullName>
+        <default>false</default>
+        <label>IVA Aduana autorepercutido</label>
+    </customValue>
+    <customValue>
+        <fullName>GIADAS</fullName>
+        <default>false</default>
+        <label>IVA Aduana soportado</label>
+    </customValue>
+    <customValue>
+        <fullName>GICI</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras intracomunitarias UE</label>
+    </customValue>
+    <customValue>
+        <fullName>GICM</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras internacionales (no UE)</label>
+    </customValue>
+    <customValue>
+        <fullName>GICMNS</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras Resto del Mundo NO SUJETO</label>
+    </customValue>
+    <customValue>
+        <fullName>GICN</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras nacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>GICNA</fullName>
+        <default>false</default>
+        <label>IVA Sop. gastos nacionales arrendamiento</label>
+    </customValue>
+    <customValue>
+        <fullName>GICNE</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras nacionales exentas</label>
+    </customValue>
+    <customValue>
+        <fullName>GICNNS</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras nacionales NO SUJETO</label>
+    </customValue>
+    <customValue>
+        <fullName>GICNR</fullName>
+        <default>false</default>
+        <label>IVA Sop. compras nacionales reducido 10%</label>
+    </customValue>
+    <customValue>
+        <fullName>GICSM</fullName>
+        <default>false</default>
+        <label>IVA Sop. adquisición servicios internacional(no UE</label>
+    </customValue>
+    <customValue>
+        <fullName>GICSN</fullName>
+        <default>false</default>
+        <label>IVA Sop. adquisición compras inversión sujeto pasi</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVI</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas intracomunitarias UE</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVINS</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas servicios intracomunitarios UE</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVM</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas (no UE)</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVMNS</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas (no UE) NO SUJETO</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVMR</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas servicios con retención (no UE)</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVN</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas nacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVNE</fullName>
+        <default>false</default>
+        <label>IVA&quot;Operación exenta Rep. ventas nacionales exento</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVNISP</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas nacionales SUJETO no exento ISP</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVNNS</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas nacionales NO SUJETO</label>
+    </customValue>
+    <customValue>
+        <fullName>GIVNR</fullName>
+        <default>false</default>
+        <label>IVA Rep. ventas nacionales recargo equivalencia</label>
+    </customValue>
+    <customValue>
+        <fullName>NAC</fullName>
+        <default>false</default>
+        <label>Clientes y proveedores nacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>UE</fullName>
+        <default>false</default>
+        <label>Clientes y proveedores UE</label>
+    </customValue>
+    <masterLabel>Grupo registro IVA negocio</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

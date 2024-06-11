@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERUM_Stock_disponible__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Recuerde actualizar la página al consultar el Stock, tras 30 segundos, pulsando: &quot;ctrl&quot; + &quot;F5&quot;.</inlineHelpText>
+    <label>Stock disponible</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

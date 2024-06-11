@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PriceBookRetail</fullName>
+    <active>true</active>
+    <description>Tipo de registro para almacenar listas de precios pertenecientes a la empresa de retail</description>
+    <label>Retail</label>
+</RecordType>

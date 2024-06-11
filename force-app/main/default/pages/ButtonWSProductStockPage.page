@@ -1,0 +1,6 @@
+<apex:page standardController="Product2" extensions="ButtonWSProductStockController" action="{!updateStock}">
+    <apex:form >
+        <apex:inputHidden value="{!product2.Id}"/>
+        <apex:inputHidden value="{!product2.ERUM_External_ProductCode__c}"/>
+    </apex:form>
+</apex:page>

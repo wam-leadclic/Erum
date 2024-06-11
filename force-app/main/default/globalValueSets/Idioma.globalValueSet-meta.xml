@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ESP</fullName>
+        <default>false</default>
+        <label>Español</label>
+    </customValue>
+    <customValue>
+        <fullName>ENG</fullName>
+        <default>false</default>
+        <label>Inglés</label>
+    </customValue>
+    <customValue>
+        <fullName>FRA</fullName>
+        <default>false</default>
+        <label>Francés</label>
+    </customValue>
+    <customValue>
+        <fullName>DEU</fullName>
+        <default>false</default>
+        <label>Alemán</label>
+    </customValue>
+    <customValue>
+        <fullName>PTG</fullName>
+        <default>false</default>
+        <label>Portugués</label>
+    </customValue>
+    <customValue>
+        <fullName>ITA</fullName>
+        <default>false</default>
+        <label>Italiano</label>
+    </customValue>
+    <masterLabel>Idioma</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

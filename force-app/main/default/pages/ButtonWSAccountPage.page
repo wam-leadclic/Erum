@@ -1,0 +1,33 @@
+<apex:page standardController="Account" extensions="ButtonWSAccountController" action="{!upsertAccount}">
+    <apex:form >
+        <apex:inputHidden value="{!account.Id}"/>
+        <apex:inputHidden value="{!account.ERUM_Codigo_cliente_ERP__c}"/>
+        <apex:inputHidden value="{!account.Numero_cliente_ERP__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Estado__c}"/>
+        <apex:inputHidden value="{!account.Name}"/>
+        <apex:inputHidden value="{!account.ERUM_CIF_Europeo__c}"/>
+        <apex:inputHidden value="{!account.Website}"/>
+        <apex:inputHidden value="{!account.Phone}"/>
+        <apex:inputHidden value="{!account.ERUM_Movil__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Email__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Idioma__c}"/>
+        <apex:inputHidden value="{!account.CurrencyIsoCode}"/>
+        <apex:inputHidden value="{!account.IBAN__c}"/>
+        <apex:inputHidden value="{!account.BillingStreet}"/>
+        <apex:inputHidden value="{!account.BillingPostalCode}"/>
+        <apex:inputHidden value="{!account.ERUM_Terminos_de_pago__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Forma_de_pago__c}"/>
+        <apex:inputHidden value="{!account.Num_Exp_CYC__c}"/>
+        <apex:inputHidden value="{!account.Fecha_Exp_CYC__c}"/>
+        <apex:inputHidden value="{!account.Dias_Asegurado_CYC__c}"/>
+        <apex:inputHidden value="{!account.Limite_Credito_CYC__c}"/>
+        <apex:inputHidden value="{!account.Clasificacion__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Importe_Concedido__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Importe_solicitado__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Activo_ERP__c}"/>
+        <apex:inputHidden value="{!account.ERUM_Fecha_Activo_ERP__c}"/>
+        <apex:inputHidden value="{!account.Grupo_Contable_Cliente__c}"/>
+        <apex:inputHidden value="{!account.Grupo_contable_negocio__c}"/>
+        <apex:inputHidden value="{!account.Grupo_registro_IVA_negocio__c}"/>
+    </apex:form>
+</apex:page>
